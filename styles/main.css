@@ -38,16 +38,7 @@
 
 .hero__button{
     padding: 18px 50px 18px 50px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: white;
-    background-color:#D7B399;
-    border: none;
+   
 }
 .oldprice{
     font-family: Montserrat;
@@ -286,6 +277,7 @@
 .row{
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 .col-2{
   width: 25%;
@@ -373,4 +365,16 @@
   left: 0px;
   bottom: 0px;
   border-width: 0 0 4px 4px;
+}
+.model__button{
+  margin:0 auto;
+  padding: 18px 35px 18px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.model__arrow{
+  margin-left: 10px;
 }
