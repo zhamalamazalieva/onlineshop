@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Онлайн магазин женских и мужских одежд</title>
     <link rel="stylesheet" href="/styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -13,22 +14,26 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <ul class="menu header__left">
-                    <li class="menu__item"><a href="#" class="menu__link">Для мужчин</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Для женщин</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Для детей</a></li>
-                </ul>
-                <div class="header__logo">
-                    <img src="/img/png/logo.png" alt="" class="logo">
+                <nav class="header__nav header__nav--left">
+                    <ul class="nav__menu">
+                        <li class="nav__item"><a href="#" class="nav__link">Для мужчин</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Для женщин</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Для детей</a></li>
+                    </ul>
+                </nav>
+                <div class="header__logo logo">
+                    <a href="index.html" class="logo__llink"><img src="/img/png/logo.png" alt="logo"></a>
                 </div>
-                <ul class="menu header__rigth">
-                    <li class="menu__item"><a href="#" class="menu__link">Оплата</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Доставка</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link"><img src="/img/svg/korzinka.svg" alt=""
-                                class="korzinka"></a></li>
-                    <li class="menu__item"><a href="#" class="menu__link"><img src="/img/svg/strelka.svg" alt=""
-                                class="strelka"></a></li>
-                </ul>
+                <nav class="header__nav header__nav--rigth">
+                    <ul class="nav__menu">
+                        <li class="nav__item"><a href="#" class="nav__link">Оплата</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Доставка</a></li>
+                    </ul>
+                </nav>
+                <div class="header__shop shop">
+                    <div class="shop__busket"><img src="/img/svg/korzinka.svg" alt="busket"></div>
+                    <div class="shop__counter"><span>5</span></div>
+                </div>
             </div>
         </div>
     </header>

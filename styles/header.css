@@ -1,37 +1,54 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 61px;
+}
+
 .header__inner{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-top: 61px;
+    justify-content: space-between;
 }
-.menu{
+.nav__menu{
     display: flex;
-    font-family: Montserrat;
+    
+}
+.nav__link{
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 17px;
     letter-spacing: 0.03em;
     text-align: left;
-    color: black;
+    color: #212121;
+    text-decoration: none;
 
 
 }
-.header__left .menu__item{
-    padding-right: 45px;
+.header__shop{
     display: flex;
     align-items: center;
 }
-.header__rigth .menu__item{
-    padding-right: 45px;
-    display: flex;
-    align-items: center;
+.header__nav--left .nav__item{
+    margin-right: 45px;
 }
-.header__rigth .menu__item:nth-child(3){
-    padding-right: 15px;
+.header__logo{
+    margin: 0 90px 0 100px;
 }
-.header__rigth .menu__item:nth-child(4){
-    padding-right: 15px;
-    align-self: center;
-    padding-top: 5px;
+.header__nav--rigth .nav__item{
+    margin-right: 35px;
+}
+.nav__item:nth-last-child(1) {
+    margin: 0;
+}
+.header__shop{
+    margin-left: 100px;
+}
+.shop__busket{
+    margin-right: 20px;
 }
