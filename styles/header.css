@@ -4,13 +4,13 @@
     left: 0;
     width: 100%;
     z-index: 1;
-    padding: 61px;
+
 }
 
 .header__inner{
     display: flex;
     align-items: center;
-    padding-top: 61px;
+    padding: 61px 0;
     justify-content: space-between;
 }
 .nav__menu{
@@ -27,8 +27,6 @@
     text-align: left;
     color: #212121;
     text-decoration: none;
-
-
 }
 .header__shop{
     display: flex;
@@ -50,5 +48,31 @@
     margin-left: 100px;
 }
 .shop__busket{
-    margin-right: 20px;
+    margin-right: 28px;
+}
+.shop__counter span {
+    position: relative;
+    padding: 2px 12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    background-color: #d7b399;
+  }
+.shop__counter span::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    content: '';
+    box-sizing: content-box;
+    border-top: 9px solid transparent;
+	border-right: 18px solid #d7b399;
+    border-bottom: 9px solid transparent;
+    transform: translateX(-100%);
+
 }
