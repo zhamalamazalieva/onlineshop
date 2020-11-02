@@ -1,3 +1,7 @@
-$('.slider__container').slick({
+$('.slider-container').slick({
 	dots: true,
-});
+	infinite: true,
+	speed: 300,
+	slidesToShow: 1,
+	adaptiveHeight: true
+  });
