@@ -36,3 +36,18 @@
   color: white;
   padding: 23px 0 70px 0;
 }
+
+/*MEDIA
+====================================*/
+@media screen and (max-width:576px){
+  .delivery__title{
+    font-size: 25px;
+  }
+  .delivery__title span{
+    font-size: 25px;
+  }
+  .delivery__subtitle{
+    font-size: 18px;
+  }
+
+}

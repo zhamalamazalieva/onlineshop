@@ -5,14 +5,13 @@
   }
 .collection__row{
   display: flex;
-  flex-wrap: wrap;
 }
 .collection__men{
-  width: 50%;
   background-color: #f6f6f1;
   padding-top: 60px;
   display: flex;
   justify-content: space-between;
+  width:50%;
 }
 
 .collection__men::before{
@@ -22,12 +21,15 @@
   min-height: 250px;
   top: 0;
   right:0;
-  background-color: #f4f4f4;
+  background-color: #f4f4f1;
   z-index: -1;
 }
-.collection__women{
+.col-6{
   width: 50%;
+}
+.collection__women{
   background-color: #f4f4f4;
+  width:50%;
   padding-top: 60px;
   display: flex;
   justify-content: space-between;
@@ -40,7 +42,7 @@
   top: 0;
   left:0;
   z-index: -1;
-  background-color: #f6f6f1;
+  background-color: #f6f6f4;
 }
 .men__left, .women__left{
   display: flex;
@@ -90,4 +92,36 @@
 }
 .women__rigth{
   margin-top: 20px;
+}
+
+
+/*MEDIA
+===============================================*/
+@media screen and (max-width:576px){
+  
+  .collection__row{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 30px;
+  }
+  .collection__men::before{
+    display: none;
+    }
+  .collection__women::after{
+   display: none;
+
+  }
+  .women__rigth, .men__rigth{
+    display: none;
+  }
+  .collection__men, .collection__women{
+    width: 100%;
+  }
+  .collection__men{
+    background-color: #f6f6f1;
+  }
+  .collection__women{
+    background-color: #f4f4f4;
+  }
 }

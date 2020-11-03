@@ -11,5 +11,20 @@
   background-color:#D7B399;
   border: none;
   text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 4px;
 }
- 
+
+.btn:hover {
+  background-color: #f5ac78;
+  outline: none;
+}
+
+.btn:active {
+  background-color: #f5ac78;
+  box-shadow: 0 5px #e97b2c;
+  transform: translateY(4px);
+}
