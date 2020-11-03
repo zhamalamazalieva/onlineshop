@@ -51,6 +51,7 @@
   
   /*MEDIA
   =================================*/
+ @media screen and (max-width:576px){
   .get-present__inner{
     flex-direction: column;
     padding: 0 30px;
@@ -63,3 +64,7 @@
     text-align: center;
     margin-bottom: 30px;
   }
+  .get-present{
+    margin-bottom: 60px;
+  }
+ }

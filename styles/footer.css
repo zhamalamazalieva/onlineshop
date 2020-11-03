@@ -58,6 +58,7 @@
     line-height: 22px;
     text-align: left;
     color:#CBCFD4;
+    transition: 0.2s;
 }
 
 .social-icon{
@@ -79,5 +80,8 @@
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
-
+}
+.footer .menu__link:hover{
+    color:white;
+    font-weight: 300;
 }
