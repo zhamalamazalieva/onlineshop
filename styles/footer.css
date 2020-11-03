@@ -1,10 +1,10 @@
-.footer{
+.footer__bg-img{
     background-color: #212121;
 }
 .footer__row{
     display: flex;
     justify-content: space-between;
-    padding-top:73px;
+    padding:73px 0;
     align-items: center;
 
 }
@@ -64,4 +64,20 @@
     width: 15px;
     height: 15px;
     fill:white;
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.footer__item{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
