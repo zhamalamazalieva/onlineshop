@@ -19,7 +19,7 @@
   position: absolute;
   content: '';
   width: 50%;
-  height: 250px;
+  min-height: 250px;
   top: 0;
   right:0;
   background-color: #f4f4f4;
@@ -36,7 +36,7 @@
   position: absolute;
   content: '';
   width: 50%;
-  height: 250px;
+  min-height: 250px;
   top: 0;
   left:0;
   z-index: -1;
@@ -83,9 +83,6 @@
   height: 30px;
   background-color: #d7b399;
   border: none;
-}
-
-.men__rigth, .women__rigth{
 }
 .men__rigth{
   margin-right: 15px;
