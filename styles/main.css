@@ -150,6 +150,9 @@
 
   /*COLLECTION SECTION
   ================================================*/
+  .collection{
+    position: relative;
+  }
 .collection__row{
   display: flex;
   flex-wrap: wrap;
@@ -160,17 +163,17 @@
   padding-top: 60px;
   display: flex;
   justify-content: space-between;
-  position: relative;
 }
 
 .collection__men::before{
   position: absolute;
   content: '';
-  width: 850px;
+  width: 50%;
   height: 250px;
   top: 0;
-  right:555px;
+  right:0;
   background-color: #f6f6f1;
+  z-index: -1;
 }
 .collection__women{
   width: 50%;
@@ -178,16 +181,16 @@
   padding-top: 60px;
   display: flex;
   justify-content: space-between;
-  position: relative;
 }
 .collection__women::after{
   position: absolute;
   content: '';
-  width: 850px;
+  width: 50%;
   height: 250px;
   top: 0;
-  left:555px;
+  left:0;
   background-color: #f4f4f4;
+  z-index: -1;
 }
 .men__left, .women__left{
   display: flex;
@@ -387,6 +390,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 150px;
 
 }
 
