@@ -1,0 +1,51 @@
+/*GET-PRESENT
+=======================================*/
+.get-present{
+    background-color: #212121;
+    padding: 70px 0;
+    margin-bottom: 150px;
+  }
+  .get-present__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .col-6{
+    width: 50%;
+  }
+  .get-present__title{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #fff;
+  }
+    
+  .get-present__button{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding: 12px 30px;
+    background-color: #d7b399;
+    border: none;
+    margin-left: 35px;
+  }
+  .email{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 12px 130px 12px 20px;
+  }
+  

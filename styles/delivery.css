@@ -1,0 +1,38 @@
+ /*DELIVERY SECTION
+  ================================================*/
+  .delivery{
+    background-color: #212121;
+  }
+  .delivery__title{
+    padding-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+  .delivery__title span{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.delivery__subtitle{
+  font-family: Montserrat;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  padding: 23px 0 70px 0;
+}

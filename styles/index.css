@@ -1,5 +1,11 @@
 @import './header.css';
 @import './main.css';
+@import './hero.css';
+@import './delivery.css';
+@import './collection.css';
+@import './catalog.css';
+@import './model.css';
+@import './get-present.css';
 @import './footer.css';
 @import './reset.css';
 @import './slick.css';
@@ -26,17 +32,4 @@ body{
 
 a {
     text-decoration: none;
-}
-.btn{
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: white;
-    background-color:#D7B399;
-    border: none;
-    text-transform: uppercase;
 }
