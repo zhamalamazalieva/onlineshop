@@ -160,6 +160,17 @@
   padding-top: 60px;
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+
+.collection__men::before{
+  position: absolute;
+  content: '';
+  width: 850px;
+  height: 250px;
+  top: 0;
+  right:555px;
+  background-color: #f6f6f1;
 }
 .collection__women{
   width: 50%;
@@ -167,6 +178,16 @@
   padding-top: 60px;
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+.collection__women::after{
+  position: absolute;
+  content: '';
+  width: 850px;
+  height: 250px;
+  top: 0;
+  left:555px;
+  background-color: #f4f4f4;
 }
 .men__left, .women__left{
   display: flex;
@@ -221,16 +242,8 @@
 .women__rigth{
   margin-top: 20px;
 }
-/*
-.collection__men::before{
-  position: absolute;
-  content: '';
-  width: 850px;
-  height: 400px;
-  top: 0;
-  right:590px;
-  background-color: #f696f1;
-}*/
+
+
 
 
 /*CATALOG
@@ -281,6 +294,8 @@
 }
 .col-2{
   width: 25%;
+  display: flex;
+  justify-content: center;
 }
 .model__description{
   font-family: Montserrat;
