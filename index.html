@@ -75,6 +75,14 @@
                 5.64286 14.4743 5.85714 16.2065 3.55357C17.26 2.15179 17.6797 1.29464 17.5458 0.928571Z" />
             </g>
         </symbol>
+        <symbol id="burger-menu__icon" viewBox="0 0 448 512">
+            <g>
+                <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163
+                 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 
+                 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 
+                 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
+            </g>
+        </symbol>
     </svg>
     <!-- beginning of the header section  -->
     <header class="header">
@@ -103,7 +111,7 @@
                 <!-- media query -->
                 <div class="header__burger-menu burger-menu">
                     <div class="burger-menu__item">
-                        <svg  class="burger-menu__img">
+                        <svg class="burger-menu__img">
                             <use xlink:href="#burger-menu__icon"></use>
                         </svg>
                     </div>
@@ -423,15 +431,25 @@
                             <div class="col-2 footer__menu">
                                 <h4 class="menu__title">соц сети</h4>
                                 <ul class="menu">
+                                    <li class="menu__item"><a href="#" class="menu__link">
+                                        <svg class="social-icon">
+                                                <use xlink:href="#vk" </svg> <span>VK.com</span></a></li>
                                     <li class="menu__item"><a href="#" class="menu__link"><svg class="social-icon">
-                                                <use xlink:href="#vk"</svg> VK.com</a></li>
+                                                <use xlink:href="#facebook" </svg><span>Facebook</span></a></li>
                                     <li class="menu__item"><a href="#" class="menu__link"><svg class="social-icon">
-                                                <use xlink:href="#facebook"</svg> Facebook</a></li>
-                                    <li class="menu__item"><a href="#" class="menu__link"><svg class="social-icon">
-                                                <use xlink:href="#instagram"</svg>Instagram</a></li>
+                                                <use xlink:href="#instagram" </svg><span>Instagram</span></a></li>
                                 </ul>
                             </div>
                         </div>
+                        <ul class="menu__display--max-width576">
+                            <li class="menu__item"><a href="#" class="menu__link">
+                                <svg class="social-icon">
+                                        <use xlink:href="#vk" </svg> <span>VK.com</span></a></li>
+                            <li class="menu__item"><a href="#" class="menu__link"><svg class="social-icon">
+                                        <use xlink:href="#facebook" </svg><span>Facebook</span></a></li>
+                            <li class="menu__item"><a href="#" class="menu__link"><svg class="social-icon">
+                                        <use xlink:href="#instagram" </svg><span>Instagram</span></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>

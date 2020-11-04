@@ -82,6 +82,11 @@
 .header__burger-menu{
   display: none;
 }
+.burger-menu__icon{
+  fill: yellow;
+  width: 20px;
+  height: 20px;
+}
 @media screen and (max-width:700px){
   .header__nav--left, .header__nav--rigth, .header__shop{
     display: none;
