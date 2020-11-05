@@ -2,18 +2,19 @@
   ================================================*/
   .delivery{
     background-color: #212121;
+    padding: 80px 0;
   }
   .delivery__title{
-    padding-top: 80px;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 35px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.06em;
     text-align: center;
     color: white;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
   .delivery__title span{
     font-family: Montserrat;
@@ -21,7 +22,7 @@
     font-style: normal;
     font-weight: 300;
     line-height: 37px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
 }
@@ -34,20 +35,24 @@
   letter-spacing: 0em;
   text-align: center;
   color: white;
-  padding: 23px 0 70px 0;
 }
 
 /*MEDIA
 ====================================*/
 @media screen and (max-width:576px){
+  .delivery{
+    padding: 30px;
+  }
   .delivery__title{
-    font-size: 25px;
+    font-size: 20px;
+    margin-bottom: 0;
   }
   .delivery__title span{
-    font-size: 25px;
+    font-size: 20px;
   }
   .delivery__subtitle{
-    font-size: 18px;
+    font-size: 14px;
+    padding:0 0 30 0;
   }
 
 }

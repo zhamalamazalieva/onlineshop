@@ -113,7 +113,7 @@
   ================================================*/
   @media screen and (max-width:576px){
     .hero{
-      min-height: 650px;
+      min-height: 700px;
       overflow: hidden;
 
     }
@@ -160,6 +160,6 @@
       font-size: 24px;
     }
     .hero .slick-list{
-      min-height: 500px;
+      min-height: 600px;
     }
   }
