@@ -34,3 +34,10 @@ body{
 a {
     text-decoration: none;
 }
+
+
+@media screen and (max-width:576px){
+    .container{
+        padding: 0 25px;
+    }
+}

@@ -105,6 +105,61 @@
     .hero .slick-dots .slick-active button {
       background-color: #d7b399;
     }
-    .slick-list{
+    .hero .slick-list{
       min-height: 700px;
     }
+
+  /*MEDIA
+  ================================================*/
+  @media screen and (max-width:576px){
+    .hero{
+      min-height: 650px;
+      overflow: hidden;
+
+    }
+    .hero__row{
+      margin: 150px 0 50px 0;
+      flex-wrap: wrap;
+    }
+    .col-6{
+      width: 100%;
+    }
+    .hero__suptitle{
+      font-size: 18px;
+      margin-bottom: 0;
+      text-align: center;
+    }
+    .hero__title{
+      font-size: 30px;
+      margin-bottom:0;
+      padding: 0;
+      text-align: center;
+    }
+    .hero__button{
+      padding: 10px 20px ;
+      margin-top: 5px;
+    }
+    .btn{
+      font-size: 12px;
+    }
+    .hero__left{
+      text-align: center;
+    }
+    .hero__rigth{
+      margin-top: 60px;
+    }
+    .hero__img{
+      max-width: 250px;
+      position: absolute;
+      top: 5px;
+    }
+    .oldprice{
+      font-size: 16px;
+    }
+    .newprice{
+      font-size: 24px;
+    }
+    .hero .slick-list{
+      min-height: 500px;
+    }
+  }
