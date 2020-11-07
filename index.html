@@ -137,14 +137,14 @@
                 <div class="slider-container">
                     <div class="hero__row">
                         <div class="col-6">
-                            <div class="hero__left">
+                            <div class="hero__left wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s"">
                                 <h2 class="hero__suptitle">Зимняя распродажа</h2>
                                 <h1 class="hero__title">СКИДКИ ДО 90%</h1>
                                 <button class="btn hero__button">СМОТРЕТЬ МОДЕЛИ</button>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="hero__right">
+                            <div class="hero__right wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
                                 <div class="oldprice">9 999 Р</div>
                                 <div class="newprice">1 900 Р</div>
                                 <img src="./img/png/hero-shoe.png" alt="shoe" class="hero__img">
@@ -472,10 +472,16 @@
         </footer>
 
     </main>
-    <!-- beginning of the javascript code -->
+    <!----------------- beginning of the javascript code----------------------->
     <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/vendors/wow.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/main.js"></script>
+    <!-----------------------------script code--------------------------------->
+     <script>
+        new WOW().init();
+    </script>
+
 </body>
 
 </html>
