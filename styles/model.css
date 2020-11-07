@@ -6,7 +6,7 @@
   letter-spacing: 0.04em;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 100px;  
+  margin:150px 0 100px 0;  
 }
 .model__row{
   margin-bottom: 50px;
@@ -113,7 +113,7 @@
    margin: 25px;
  }
   .model__title{
-    margin-bottom: 20px;
+    margin:100px 0 20px 0;
     font-size: 30px;
   }
   .model__border{
@@ -125,6 +125,9 @@
   }
   .model__button{
     margin-bottom: 50px;
+      padding: 15px 30px 15px 30px;
+     
+    }  
   }
   
- }
+ 

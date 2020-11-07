@@ -1,0 +1,15 @@
+/*MEDIA
+==============================================*/
+@media screen and (max-width:1024px){
+    .discount .container{
+        padding: 0;
+    }
+    .model__button{
+        margin-bottom: 50px;
+          padding: 15px 30px 15px 30px;
+         
+    }  
+    .discount .model__row{
+        margin-bottom: 50px;
+    }
+}
