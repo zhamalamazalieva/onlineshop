@@ -92,6 +92,15 @@
                  4.5L20 4.5V3.5L0 3.5L0 4.5Z"/>
             </g>
         </symbol>
+        <symbol id="arrow-right" viewBox="0 0 21 8">
+            <g>
+                <path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 
+                0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692
+                 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 
+                 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 
+                 4.5L20 4.5V3.5L0 3.5L0 4.5Z"/>
+            </g>
+        </symbol>
     </svg>
     <!----------------- beginning of the header section ----------------------->
     <header class="header">
@@ -122,7 +131,7 @@
     </header>
     <!------------------ beginning of the main section ------------------------>
     <main>
-        <!------------------ beginning of the hero section------------------------->
+    <!------------------ beginning of the hero section------------------------->
         <section class="hero">
             <div class="container">
                 <div class="slider-container">
@@ -193,14 +202,14 @@
                 </div>
             </div>
         </section>
-        <!--------------- beginning of the delivery section ----------------------->
+    <!--------------- beginning of the delivery section ----------------------->
         <section class="delivery">
             <div class="container">
                 <h1 class="delivery__title">Бесплатная доставка<span> От 1999Р</span></h1>
                 <h3 class="delivery__subtitle">Сделайте заказ и получите подарок!</h3>
             </div>
         </section>
-        <!--------------- beginning of the collection section --------------------->
+    <!--------------- beginning of the collection section --------------------->
         <section class="collection">
             <div class="container">
                 <div class="row">
@@ -231,10 +240,10 @@
                   </div>
             </div>
         </section>
-        <!-- beginning of the catalog section -->
+    <!----------------- beginning of the catalog section----------------------->
         <section class="catalog">
             <div class="container">
-                <div class="catalog-row">
+                <div class="row">
                     <div class="col-2 catalog__item">
                         <h5 class="catalog__name">ПЛАТЬЯ</h5>
                         <img src="./img/png/tshirt2.png" alt="" class="catalog__img">
@@ -270,12 +279,12 @@
                 </div>
             </div>
         </section>
-        <!-- beginning of the model section -->
+    <!-- beginning of the model section -->
         <section class="model">
             <div class="container">
                 <h2 class="model__title">новые модели</h2>
-                <div class="model-row row">
-                    <div class="col-2 ">
+                <div class="row">
+                    <div class="col-2">
                         <div class="model__border">
                             <div class="model__inner">
                                 <img src="./img/png/dress.png" alt="dress" class="model__img">
@@ -285,7 +294,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2 ">
+                    <div class="col-2">
                         <div class="model__border">
                             <div class="model__inner">
                                 <img src="./img/png/dress.png" alt="dress" class="model__img">
@@ -295,7 +304,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2 ">
+                    <div class="col-2">
                         <div class="model__border">
                             <div class="model__inner">
                                 <img src="./img/png/dress.png" alt="dress" class="model__img">
@@ -305,7 +314,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2 ">
+                    <div class="col-2">
                         <div class="model__border">
                             <div class="model__inner">
                                 <img src="./img/png/dress.png" alt="dress" class="model__img">
@@ -315,10 +324,12 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <button class="model__button btn">все модели <img src="./img/svg/Arrow.svg" alt="arrow"
-                        class="model__arrow"></button>
+                <a href="#" class="model__button btn">все модели
+                    <svg class="model__arrow">
+                        <use xlink:href="#arrow-right"></use>
+                    </svg>
+                </a>
             </div>
         </section>
         <!-- beginning of the get-present section -->

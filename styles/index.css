@@ -11,34 +11,3 @@
 @import './slick.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&family=Roboto:wght@100;300;700&display=swap');
-
-
-
-html{
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-*{
-    box-sizing: border-box;
-}
-body{
-
-}
-.container {
-    width: 100%;
-    max-width: 1110px;
-    margin: 0 auto;
-}
-
-a {
-    text-decoration: none;
-    display: inline-block;
-}
-
-
-@media screen and (max-width:576px){
-    .container{
-        padding: 0 25px;
-    }
-}
