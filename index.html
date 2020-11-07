@@ -83,6 +83,15 @@
                  0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
             </g>
         </symbol>
+        <symbol id="arrow" viewBox="0 0 21 8">
+            <g>
+                <path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 
+                0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692
+                 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 
+                 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 
+                 4.5L20 4.5V3.5L0 3.5L0 4.5Z"/>
+            </g>
+        </symbol>
     </svg>
     <!----------------- beginning of the header section ----------------------->
     <header class="header">
@@ -113,7 +122,7 @@
     </header>
     <!------------------ beginning of the main section ------------------------>
     <main>
-    <!------------------ beginning of the hero section------------------------->
+        <!------------------ beginning of the hero section------------------------->
         <section class="hero">
             <div class="container">
                 <div class="slider-container">
@@ -184,44 +193,42 @@
                 </div>
             </div>
         </section>
-        <!-- beginning of the delivery section -->
+        <!--------------- beginning of the delivery section ----------------------->
         <section class="delivery">
             <div class="container">
                 <h1 class="delivery__title">Бесплатная доставка<span> От 1999Р</span></h1>
                 <h3 class="delivery__subtitle">Сделайте заказ и получите подарок!</h3>
             </div>
         </section>
-        <!-- beginning of the collection section -->
+        <!--------------- beginning of the collection section --------------------->
         <section class="collection">
             <div class="container">
-                <div class="collection__row">
-
-                    <div class="collection__men">
-                        <div class="men__left">
-                            <h1 class="men__title collection__title">Мужская <span
-                                    class="collection__title--regular-text">колллекция</span></h1>
-                            <span class="men__subtitle collection__subtitle">Обувь, полуверы, костюмы</span>
-                            <button class="men__button collection__btn"><img src="./img/svg/Arrow.svg" alt="arrow"
-                                    class="arrow"></button>
-                        </div>
-                        <div class="men__rigth">
-                            <img src="./img/png/man.png" alt="a man" class="man-img">
-                        </div>
+                <div class="row">
+                    <div class="col-6 before">
+                      <div class="collection__item wow fadeInLeft">
+                        <h3 class="collection__title">МУЖСКАЯ <span class="font-regular">КОЛЛЕКЦИЯ</span></h3>
+                        <p class="collection__subtitle">Обувь, полуверы, костюмы</p>
+                        <a href="#" class="btn collection__button">
+                          <svg class="collection__arrow">
+                            <use xlink:href="#arrow"></use>
+                          </svg>
+                        </a>
+                        <img src="./img/png/man.png" alt="" class="collection__image">
+                      </div>
                     </div>
-
-                    <div class="collection__women">
-                        <div class="women__left">
-                            <h1 class="women__title collection__title">Женская <span
-                                    class="collection__title--regular-text">колллекция</span></h1>
-                            <span class="women__subtitle collection__subtitle">Обувь, полуверы, костюмы</span>
-                            <button class="women__button collection__btn"><img src="./img/svg/Arrow.svg" alt="arrow"
-                                    class="arrow"></button>
-                        </div>
-                        <div class="women__rigth">
-                            <img src="./img/png/woman.png" alt="a woman" class="woman-img">
-                        </div>
+                    <div class="col-6 after">
+                      <div class="collection__item wow fadeInRight">
+                        <h3 class="collection__title">ЖЕНСКАЯ <span class="font-regular">КОЛЛЕКЦИЯ</span></h3>
+                        <p class="collection__subtitle">Обувь, полуверы, костюмы</p>
+                        <a href="#" class="btn collection__button">
+                            <svg class="collection__arrow">
+                              <use xlink:href="#arrow"></use>
+                            </svg>
+                        </a>
+                        <img src="./img/png/woman.png" alt="" class="collection__image">
+                      </div>
                     </div>
-                </div>
+                  </div>
             </div>
         </section>
         <!-- beginning of the catalog section -->

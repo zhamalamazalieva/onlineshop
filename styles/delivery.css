@@ -1,32 +1,32 @@
- /*DELIVERY SECTION
+/*DELIVERY SECTION
   ================================================*/
-  .delivery{
-    background-color: #212121;
-    padding: 80px 0;
-  }
-  .delivery__title{
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 50px;
+.delivery {
+  background-color: #212121;
+  padding: 80px 0;
 }
-  .delivery__title span{
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 37px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    text-transform: uppercase;
+.delivery__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 50px;
 }
-.delivery__subtitle{
+.delivery__title span {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 37px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.delivery__subtitle {
   font-family: Montserrat;
   font-size: 21px;
   font-style: normal;
@@ -38,21 +38,20 @@
 }
 
 /*MEDIA
-====================================*/
-@media screen and (max-width:576px){
-  .delivery{
+============================================*/
+@media screen and (max-width: 1024px) {
+  .delivery {
     padding: 30px;
   }
-  .delivery__title{
+  .delivery__title {
     font-size: 20px;
     margin-bottom: 0;
   }
-  .delivery__title span{
+  .delivery__title span {
     font-size: 20px;
   }
-  .delivery__subtitle{
+  .delivery__subtitle {
     font-size: 14px;
-    padding:0 0 30 0;
+    padding: 0 0 30 0;
   }
-
 }
