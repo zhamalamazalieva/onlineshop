@@ -26,3 +26,11 @@
   box-shadow: 0 5px #e97b2c;
   transform: translateY(4px);
 }
+
+/*MEDIA
+=========================================*/
+@media screen and (max-width:1024px){
+  .btn{
+    font-size: 12px;
+  }
+}

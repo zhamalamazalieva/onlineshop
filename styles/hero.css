@@ -13,12 +13,14 @@
   .col-6{
       width: 50%;
   }
+/*hero left
+=============================================*/
   .hero__suptitle{
       font-family: Montserrat;
       font-size: 30px;
       font-style: normal;
       font-weight: 400;
-      line-height: 37px;
+      line-height: 1;
       letter-spacing: 0.02em;
       text-align: left;
       color: black;
@@ -29,7 +31,7 @@
       font-size: 55px;
       font-style: normal;
       font-weight: 700;
-      line-height: 67px;
+      line-height: 1;
       letter-spacing: 0.04em;
       text-align: left;
       color: black;
@@ -40,12 +42,14 @@
       padding: 18px 50px 18px 50px;
      
   }
+   /*hero right
+=============================================*/
   .oldprice{
       font-family: Montserrat;
       font-size: 24px;
       font-style: normal;
       font-weight: 700;
-      line-height: 29px;
+      line-height: 1;
       letter-spacing: 0.05em;
       text-align: right;
       color: black;
@@ -56,13 +60,12 @@
       font-size: 42px;
       font-style: normal;
       font-weight: 700;
-      line-height: 51px;
+      line-height: 1;
       letter-spacing: 0.02em;
       text-align: right;
       color:#D84033;
   }
-  
-  .hero__rigth{
+  .hero__right{
       position: relative;
   }
   .hero__img{
@@ -70,6 +73,8 @@
       top: -34px;
   }
   
+   /*slick slider
+=============================================*/
   .slick-initialized .slick-slide {
       display: flex;
     }
@@ -111,47 +116,47 @@
 
   /*MEDIA
   ================================================*/
-  @media screen and (max-width:576px){
+  @media screen and (max-width:1024px){
     .hero{
-      min-height: 700px;
+      height: 100vh;
+      min-height: auto;
       overflow: hidden;
 
     }
     .hero__row{
-      margin: 150px 0 50px 0;
+      margin-top: 170px;
       flex-wrap: wrap;
     }
     .col-6{
       width: 100%;
     }
+    .hero__title, .hero__suptitle{
+      text-align: center;
+    }
     .hero__suptitle{
       font-size: 18px;
-      margin-bottom: 0;
-      text-align: center;
+      margin-bottom: 20px;
     }
     .hero__title{
       font-size: 30px;
-      margin-bottom:0;
+      margin-bottom:20px;
       padding: 0;
-      text-align: center;
     }
     .hero__button{
       padding: 10px 20px ;
       margin-top: 5px;
     }
-    .btn{
-      font-size: 12px;
-    }
+   
     .hero__left{
       text-align: center;
     }
-    .hero__rigth{
-      margin-top: 60px;
+    .hero__right{
+      margin-top: 50px;
     }
     .hero__img{
-      max-width: 250px;
+      max-width: 280px;
       position: absolute;
-      top: 5px;
+      top: -10px;
     }
     .oldprice{
       font-size: 16px;
