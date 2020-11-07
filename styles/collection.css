@@ -21,7 +21,7 @@
   min-height: 250px;
   top: 0;
   right:0;
-  background-color: #f4f4f1;
+  background-color: #f6f6f1;
   z-index: -1;
 }
 .col-6{
@@ -33,6 +33,7 @@
   padding-top: 60px;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .collection__women::after{
   position: absolute;
@@ -42,7 +43,7 @@
   top: 0;
   left:0;
   z-index: -1;
-  background-color: #f6f6f4;
+  background-color: #f4f4f4;
 }
 .men__left, .women__left{
   display: flex;
@@ -107,22 +108,32 @@
     padding-left: 30px;
   }
   .collection__men::before{
-    display: none;
+    width: 100%;
     }
   .collection__women::after{
-   display: none;
+   width: 100%;
+   top: 250px;
 
   }
-  .women__rigth, .men__rigth{
-    display: none;
+  .woman-img, .man-img{
+    width: 150px;
+    
   }
   .collection__men, .collection__women{
     width: 100%;
   }
   .collection__men{
     background-color: #f6f6f1;
+
   }
   .collection__women{
     background-color: #f4f4f4;
+  }
+  .men__rigth{
+    margin-right: 0;
+    margin-top: 0;
+  }
+  .women__rigth{
+    margin-top: 0;
   }
 }
