@@ -1,5 +1,4 @@
-/*CATALOG
-===========================================*/
+
 .catalog {
   margin-bottom: 150px;
 }
@@ -17,4 +16,21 @@
   text-align: left;
   top: 186px;
   left: 30px;
+}
+
+/*MEDIA
+=========================================*/
+@media screen and (max-width:1024px){
+.catalog .container{
+  padding: 0;
+}
+.catalog__item{
+  width: 100%;
+}
+.catalog__img{
+  width: 100%;
+}
+.catalog__name{
+  top:260px;
+}
 }

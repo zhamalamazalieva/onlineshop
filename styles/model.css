@@ -38,10 +38,6 @@
     padding: 25px 23px;
     justify-content: center;
     position: absolute;
-    /* left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px; */
   }
   .model__img{
     margin-bottom: 25px;
@@ -107,6 +103,9 @@
   /*MEDIA
   ==========================================*/
  @media screen and (max-width:576px){
+   .model .container{
+     padding: 0;
+   }
   .model-row{
     padding: 0 30px;
     margin-bottom: 40px;
@@ -114,9 +113,8 @@
   .model__title{
     margin-bottom: 60px;
   }
-
-  .col-2{
-    width: 50%;
+  .col-3{
+    width: 100%;
   }
   .model__inner{
     margin-bottom: 30px;

@@ -2,11 +2,6 @@
   position: relative;
   z-index: 1;
 }
-
-.collection .col-6{
-  width: 50%;
-}
-
 .collection__item {
   position: relative;
   padding: 60px 30px 58px;
@@ -83,39 +78,23 @@
 
 /*MEDIA
 ===============================================*/
-@media screen and (max-width: 576px) {
-  .collection__row {
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding-left: 30px;
-  }
-  .collection__men::before {
+@media screen and (max-width: 1024px) {
+
+  .before::before {
     width: 100%;
   }
-  .collection__women::after {
-    width: 100%;
+  .after::after {
     top: 250px;
-  }
-  .woman-img,
-  .man-img {
-    width: 150px;
-  }
-  .collection__men,
-  .collection__women {
     width: 100%;
   }
-  .collection__men {
-    background-color: #f6f6f1;
+  .collection__item {
+    padding: 60px 0 60px;
   }
-  .collection__women {
-    background-color: #f4f4f4;
+  .collection__image {
+    max-width: 125px;
+    right: 0;
   }
-  .men__rigth {
-    margin-right: 0;
-    margin-top: 0;
-  }
-  .women__rigth {
-    margin-top: 0;
+  .collection .col-2{
+    width: 100%;
   }
 }
