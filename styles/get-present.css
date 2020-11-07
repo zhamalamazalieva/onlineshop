@@ -5,16 +5,8 @@
     padding: 70px 0;
     margin-bottom: 150px;
   }
-  .get-present__inner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .col-6{
-    width: 50%;
-  }
+ 
   .get-present__title{
-    font-family: Montserrat;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
@@ -25,11 +17,10 @@
   }
     
   .get-present__button{
-    font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 17px;
+    line-height: 1;
     letter-spacing: 0em;
     text-align: center;
     color: white;
@@ -39,11 +30,10 @@
     margin-left: 35px;
   }
   .email{
-    font-family: Montserrat;
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
-    line-height: 15px;
+    line-height: 1;
     letter-spacing: 0.02em;
     text-align: left;
     padding: 12px 130px 12px 20px;
@@ -51,20 +41,26 @@
   
   /*MEDIA
   =================================*/
- @media screen and (max-width:576px){
+ @media screen and (max-width:1024px){
   .get-present__inner{
     flex-direction: column;
     padding: 0 30px;
   }
-  .col-6{
-    width: 100%;
-  }
+  
   .get-present__title{
-    font-size: 27px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 30px;
   }
   .get-present{
-    margin-bottom: 60px;
+    padding: 40px 0;
   }
+  .email{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .get-present__button{
+    margin: 0;
+  }
+ 
  }
