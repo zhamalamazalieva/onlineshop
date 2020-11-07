@@ -51,16 +51,14 @@ a {
   transition: 0.3s;
 }
 
-
 .btn:hover {
-  background-color: #f5ac78;
-  outline: none;
+  background-color: #fff;
+  color: #d7b399;
+  border: 2px solid #d7b399;
 }
 
-.btn:active {
-  background-color: #f5ac78;
-  box-shadow: 0 5px #e97b2c;
-  transform: translateY(4px);
+.btn:hover svg {
+  fill: #d7b399;
 }
 
 /*MEDIA
