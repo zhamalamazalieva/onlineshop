@@ -1,57 +1,60 @@
-
 .model__title{
-    font-family: Montserrat;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 44px;
-    letter-spacing: 0.04em;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 100px;  
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;  
 }
+.model__row{
+  margin-bottom: 50px;
+}
+.model__inner{
+  display: flex;
+  flex-direction: column;
+  padding: 25px 23px; 
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right: 0;
+}
+.model__img{
+  margin-bottom: 25px;
+}
+
   .model__description{
-    font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 17px;
+    line-height: 1.5;
     letter-spacing: 0em;
     text-align: center;
     margin-bottom: 15px;
-  
-  }
+    max-width: 110px;
+}
   .model__price{
-    font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 22px;
+    line-height: 1.5;
     letter-spacing: 0em;
     text-align: center;
     color: #D7B399;
   
   }
-  .model__inner{
-    display: flex;
-    flex-direction: column;
-    padding: 25px 23px;
-    justify-content: center;
-    position: absolute;
-  }
-  .model__img{
-    margin-bottom: 25px;
-  }
+ 
   .model__border{
-    width: 92%;
     padding: 25px;
     position: relative;
-    margin-bottom: 100px;
-  
-  }
-  .model__border {
     min-height: 344px;
-  }
+    margin:0 20px;
+}
+
   
   .model__border:before,
   .model__border:after,
@@ -102,24 +105,26 @@
   
   /*MEDIA
   ==========================================*/
- @media screen and (max-width:576px){
+ @media screen and (max-width:1024px){
    .model .container{
      padding: 0;
    }
-  .model-row{
-    padding: 0 30px;
-    margin-bottom: 40px;
-  }
+ .model__item{
+   margin: 25px;
+ }
   .model__title{
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+    font-size: 30px;
   }
-  .col-3{
-    width: 100%;
+  .model__border{
+    margin: 45px;
   }
+  
   .model__inner{
-    margin-bottom: 30px;
+    margin-bottom: -40px;
   }
   .model__button{
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
+  
  }
